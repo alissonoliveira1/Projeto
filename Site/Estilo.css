@@ -11,6 +11,8 @@ html{
 }
 
 
+    
+
 
 .container{
     max-width: 1280px;
@@ -22,7 +24,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 header{
@@ -37,7 +39,7 @@ header{
 
 header.rolagem{
     background-color: rgb(231, 195, 195);
-    padding: 10px 2%;
+    padding: 1px 2%;
 }
 
 header.rolagem a, header.rolagem i{
@@ -45,9 +47,8 @@ header.rolagem a, header.rolagem i{
 
 }
 
-header i{
-    font-size: 30px;
-    color: #000;
+header img{
+    width: 100px;
 }
 
 header ul{
