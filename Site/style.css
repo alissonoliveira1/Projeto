@@ -5,8 +5,16 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+body {
+  background-color: rgb(207, 207, 207);
+}
+
 html {
   height: 500vh;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -38,11 +46,6 @@ header.rolagem a, header.rolagem i {
   color: rgb(109, 81, 5);
 }
 
-header img {
-  width: 40px;
-  font-size: 60px;
-}
-
 header ul {
   list-style: none;
 }
@@ -57,31 +60,97 @@ header ul li a {
   text-decoration: none;
 }
 
-.banner {
+.self {
   height: 100vh;
-  background-image: url(bannerz.jpg);
+  background-image: url(templete.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.banner h1 {
-  font-size: 4em;
+.info h1 {
+  color: rgba(0, 0, 0, 0.432);
+  text-align: right;
+  margin-top: -8em;
+  font-size: 3.8em;
+  margin-right: 2em;
 }
 
-.banner h1 span {
-  color: rgb(236, 169, 82);
+.jeep img {
+  margin: 5px;
+  position: static;
+  width: 800px;
+}
+
+.pal p {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  margin-right: 20em;
+  font-size: 1em;
+  margin-top: 60px;
+}
+
+.ov img {
+  width: 30px;
+  height: 30px;
+  margin-top: -1.8em;
+  position: absolute;
+  right: 30em;
+}
+
+.self h1 {
+  font-style: oblique;
+  margin-left: 70px;
+  margin-top: 1.8em;
+  font-size: 7em;
+  color: rgb(218, 213, 213);
+}
+
+.dof {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 18em;
+}
+
+.dps {
+  color: black;
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 14em;
+}
+
+.asd {
+  color: black;
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 13em;
+}
+
+.bnt-comprar button {
+  width: 170px;
+  height: 50px;
+  border: 0;
+  background-color: rgb(148, 125, 93);
+  color: whitesmoke;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin-left: 73em;
+  margin-top: 5em;
 }
 
 .btn-contato button {
-  display: inline-block;
-  width: 120px;
-  height: 40px;
+  width: 170px;
+  height: 50px;
   border: 0;
-  background-color: rgb(255, 212, 148);
+  background-color: rgb(204, 188, 165);
   color: whitesmoke;
   cursor: pointer;
   transition: 0.2s;
