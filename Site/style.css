@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(207, 207, 207);
+  background-color: rgb(226, 226, 226);
 }
 
 html {
@@ -15,6 +15,10 @@ html {
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -69,12 +73,26 @@ header ul li a {
   display: flex;
 }
 
+.titu h2 {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.meio p {
+  font-size: 15px;
+  text-align: center;
+  margin: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .info h1 {
-  color: rgba(0, 0, 0, 0.432);
+  color: white;
   text-align: right;
   margin-top: -8em;
   font-size: 3.8em;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .jeep img {
@@ -86,7 +104,7 @@ header ul li a {
 .pal p {
   color: rgb(0, 0, 0);
   text-align: right;
-  margin-right: 20em;
+  margin-right: 16.4em;
   font-size: 1em;
   margin-top: 60px;
 }
@@ -96,7 +114,7 @@ header ul li a {
   height: 30px;
   margin-top: -1.8em;
   position: absolute;
-  right: 30em;
+  right: 29.5em;
 }
 
 .self h1 {
@@ -107,10 +125,18 @@ header ul li a {
   color: rgb(218, 213, 213);
 }
 
-.dof {
+.tet {
   text-align: right;
   margin-top: 50px;
   margin-right: 18em;
+}
+
+.teto img {
+  width: 30px;
+  height: 30px;
+  margin-top: -1.5em;
+  position: absolute;
+  right: 29.5em;
 }
 
 .dps {
@@ -120,18 +146,38 @@ header ul li a {
   margin-right: 14em;
 }
 
-.asd {
+.os img {
+  width: 30px;
+  height: 30px;
+  margin-top: -1.5em;
+  position: absolute;
+  right: 29.5em;
+}
+
+.roda {
   color: black;
   text-align: right;
   margin-top: 50px;
   margin-right: 13em;
 }
 
+.aro img {
+  width: 30px;
+  height: 30px;
+  margin-top: -1.6em;
+  position: absolute;
+  right: 29.5em;
+}
+
+.corpo {
+  background-color: silver;
+}
+
 .bnt-comprar button {
   width: 170px;
   height: 50px;
   border: 0;
-  background-color: rgb(148, 125, 93);
+  background-color: rgb(110, 110, 110);
   color: whitesmoke;
   cursor: pointer;
   transition: 0.2s;
@@ -144,6 +190,82 @@ header ul li a {
   z-index: 1;
   margin-left: 73em;
   margin-top: 5em;
+}
+
+.copo {
+  background-color: silver;
+}
+
+.cuper {
+  text-align: right;
+  margin-top: 9em;
+}
+
+.cuper img {
+  position: static;
+  width: 800px;
+}
+
+.KK {
+  margin: 30PX;
+  text-align: CENTER;
+}
+
+.encontre {
+  margin-top: 10px;
+  margin: 30px;
+  text-align: CENTER;
+  font-size: 2em;
+}
+
+.pesquisar img {
+  margin-left: 10em;
+}
+
+.pesq {
+  margin-left: 8em;
+  color: black;
+}
+
+.bnt-pesquisa2 button {
+  margin-top: 50px;
+  margin-left: 12em;
+  color: pink;
+}
+
+.tesla {
+  margin-top: -5.7em;
+  text-align: center;
+}
+
+.teslat {
+  text-align: center;
+}
+
+.bnt-pesquisar {
+  text-align: center;
+}
+
+.bnt-pesquisar button {
+  color: aqua;
+}
+
+.confg {
+  margin-top: -8em;
+  margin-right: 10em;
+  text-align: right;
+}
+
+.confgt {
+  margin-right: 8em;
+  text-align: right;
+}
+
+.bnt-conf {
+  color: aqua;
+  margin-top: 50px;
+  text-align: right;
+  margin-right: 8em;
 }
 
 .btn-contato button {
