@@ -19,7 +19,7 @@ h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2{
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -67,12 +67,12 @@ header ul li{
 }
 
 header ul li a{
- color: rgb(109, 81, 5);
- text-decoration: none;
+    color: rgb(109, 81, 5);
+    text-decoration: none;
 
 }
 
-.self{
+.temp{
     height: 100vh;
     background-image: url(templete.jpg); 
     background-position: center;
@@ -80,51 +80,7 @@ header ul li a{
     background-size: cover;
     display: flex;
 } 
-.titu h2{
-    color: black;
-  text-align: center;
-  font-size: 2em;
-  margin: 20px;
- } .meio p{
-    font-size: 15px;
-    text-align: center;
- margin: 50px;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-    
-
-.info h1{
-    color: white;
-    text-align: right;
-    margin-top: -8em;
-    font-size: 3.8em;
-     margin-right: 1em;
-    
-  }
-.jeep img{
-    margin: 5px;
-    position: static;
-    width: 800px;
-  }
-  .pal h4{
-    color: rgb(0, 0, 0);
-    text-align: right;
-    margin-right: 16.4em;
-    font-size: 1em;
-    margin-top: 60px;
-
-  }
-.ov img{
-    width: 30px;
-    height: 30px;
-    margin-top: -1.8em;
-    position: absolute;
-    right:29.5em;
-    
-}
- 
-
-.self h1{
+.temp h1{
     font-style: oblique;
     margin-left:70px; 
     margin-top: 1.8em;
@@ -132,24 +88,64 @@ header ul li a{
     color: rgb(218, 213, 213);
     
 }
-.tet{
-     text-align: right;
-     margin-top: 50px;
-     margin-right: 18em;
+.titu h2{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+
+ } .meio h4{
+    font-size: 15px;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+.info h1{
+    color: white;
+    text-align: right;
+    margin-top: -8em;
+    font-size: 3.8em;
+     margin-right: 1em;
+    
+}
+.jeep img{
+    margin: 5px;
+    width: 800px;
+
+}
+.pal h4{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: 16.5em;
+    font-size: 1em;
+    margin-top: 60px;
+
+}
+.ov img{
+    margin-top: -1.8em;
+    position: absolute;
+    right:29.5em;
+    
 }
 .teto img{
-    width: 30px;
-    height: 30px;
     margin-top: -1.5em;
     position: absolute;
     right:29.5em;
 
 }
-.dps{
+.tet{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 17.5em;
+
+}
+.mult{
      color: black;
      text-align: right;
      margin-top: 50px;
-     margin-right: 14em;
+     margin-right: 13.5em;
+
 }
 .os img{
     width: 30px;
@@ -163,7 +159,8 @@ header ul li a{
      color: black;
      text-align: right;
      margin-top: 50px;
-     margin-right: 13em;
+     margin-right: 12.7em;
+
 }
 .aro img{
     width: 30px;
@@ -171,66 +168,61 @@ header ul li a{
     margin-top: -1.6em;
     position: absolute;
     right:29.5em;
+
 }
 .corpo{
     background-color: silver;
     
 }
+.bnt-comprar{
+    text-align: right;
+    margin-top: 3em;
+    margin-right: 12em;
 
+}
 
 .bnt-comprar button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
     width: 170px;
     height: 50px;
-    border: 0;
-    background-color: rgb(110, 110, 110);
-    color: whitesmoke;
+    border: none;
     cursor: pointer;
-    transition: .2s;
-    padding: .75rem 1.25rem;
-    border-radius: 10rem;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    margin-left: 73em;
-    margin-top: 5em;
-}
-.copo{
-    background-color: silver;
+
 }
 .cuper{
-    text-align: right;
-    margin-top: 9em;
-}
-.cuper img{
-    
-    position: static;
-    width: 800px;
-  
+    background-image: url(mini\ cuper.jpg);
+    height: 105vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
 }
 .KK{
-    margin: 30PX;
+    margin-top: 60px;
     text-align: CENTER;
         
 }
 .encontre h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .encontre {
-    margin-top:0em;
-    margin: 30px;
+    margin: 60px;
     text-align: CENTER;
     font-size: 26px;
-  
 
 }
 .pesquisar img{
-   margin-left: 12em;
+   margin-left: 20.5em;
+
 }
 .pesq{
-    margin-left: 10em;
+    margin-top: 2em;
+    margin-left: 19em;
     color: black;
+
 }
 .bnt-pesquisa2 button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -242,19 +234,20 @@ header ul li a{
     color: black;
     text-align: center;
     font-size: 1em;
-    
-}
-.tesla {
-    margin-top: -5.7em;
-   text-align: center;
-}
-.teslat{
-    text-align: center;
-}
-.bnt-pesquisar{
-    
+    cursor: pointer;
 
 }
+.tesla {
+    margin-top: -7.7em;
+    text-align: center;
+
+}
+.teslat{
+    margin-top: 2em;
+    text-align: center;
+
+}
+
 .bnt-pesquisar button{ 
     margin-left: 15em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -265,22 +258,26 @@ header ul li a{
     vertical-align: middle;
     color: black;
     text-decoration: none;
+    cursor: pointer;
+
 }
 
 
 .confg{
-    margin-top: -6em;
-    margin-right: 12em;
+    margin-top: -7.8em;
+    margin-right: 19em;
     text-align: right;
+
 }
 .confgt{
-    margin-right: 10em;
+    margin-top: 2em;
+    margin-right: 17em;
     text-align: right;
+
 }
 tr{
+   list-style: none;
 
- 
-   
 }
 tr td{
     display: inline-block;
@@ -288,12 +285,11 @@ tr td{
     
 }
 .bnt-conf{
-    
     margin-right: 0em;
     float: right;
 }
 .bnt-conf button{
-    
+    cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 21px 41px ;
     border: 1px solid;
@@ -302,12 +298,9 @@ tr td{
     text-decoration: none;
     font-size: 1em;
     color: black;
+
 }
-
-
-
 .btn-contato button{
-    
     width: 170px;
     height: 50px;
     border: 0;
@@ -323,7 +316,6 @@ tr td{
     overflow: hidden;
     z-index: 1;
     
-
 &:after {
     content: '';
     position: absolute;
@@ -334,6 +326,7 @@ tr td{
     background-color: $color;
     border-radius: 10rem;
     z-index: -2;
+
 }
 &:before {
     content: '';
@@ -346,11 +339,13 @@ tr td{
     transition: all .3s;
     border-radius: 10rem;
     z-index: -1;
+
   }
   &:hover {
     color: white;
     &:before {
     width: 100%;
+
     }
   }
 }
