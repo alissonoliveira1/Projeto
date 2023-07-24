@@ -79,22 +79,30 @@ header ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    align-items: center;
+    
 } 
+.temp h3{
+    color: white;
+    margin-top: -11em ;
+    margin-left: 3em ;
+}
 .temp h1{
-    font-style: oblique;
-    margin-left:70px; 
-    margin-top: 1.8em;
-    font-size: 7em;
+    margin-left: -4.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -2em;
+    font-size: 3.5em;
     color: rgb(218, 213, 213);
     
 }
 .titu h2{
-    color: black;
+    color: rgb(88, 88, 88);
     text-align: center;
     font-size: 2em;
     margin: 20px;
 
  } .meio h4{
+    color: rgb(88, 88, 88);
     font-size: 15px;
     text-align: center;
     margin: 50px;
@@ -115,7 +123,7 @@ header ul li a{
 
 }
 .pal h4{
-    color: rgb(0, 0, 0);
+    color: rgb(88, 88, 88);
     text-align: right;
     margin-right: 16.5em;
     font-size: 1em;
@@ -135,13 +143,14 @@ header ul li a{
 
 }
 .tet{
+    color: rgb(88, 88, 88);
     text-align: right;
     margin-top: 50px;
     margin-right: 17.5em;
 
 }
 .mult{
-     color: black;
+    color: rgb(88, 88, 88);
      text-align: right;
      margin-top: 50px;
      margin-right: 13.5em;
@@ -156,7 +165,7 @@ header ul li a{
 
 }
 .roda{
-     color: black;
+    color: rgb(88, 88, 88);
      text-align: right;
      margin-top: 50px;
      margin-right: 12.7em;
@@ -171,7 +180,7 @@ header ul li a{
 
 }
 .corpo{
-    background-color: silver;
+    background-color: rgb(216, 215, 215);
     
 }
 .bnt-comprar{
@@ -182,24 +191,21 @@ header ul li a{
 }
 
 .bnt-comprar button {
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
     width: 170px;
     height: 50px;
-    border: none;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
     cursor: pointer;
 
 }
-.cuper{
-    background-image: url(mini\ cuper.jpg);
-    height: 105vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-   
-}
+
 .KK{
+    color: rgb(112, 112, 112);
     margin-top: 60px;
     text-align: CENTER;
         
@@ -209,7 +215,8 @@ header ul li a{
 
 }
 .encontre {
-    margin: 60px;
+    color: rgb(59, 59, 59);
+    margin: 50px;
     text-align: CENTER;
     font-size: 26px;
 
@@ -300,6 +307,52 @@ tr td{
     color: black;
 
 }
+.cuper {
+    background-image: url(mini\ cuper.jpg);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+   
+}
+
+.cuper h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+.cuper h1{
+    margin-left: -4em;
+    margin-top: 2em;
+    font-size: 3em ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(77, 64, 64);
+}
+.cuper span{
+    color: rgba(0, 0, 0, 0.795);
+
+}
+.bnt-cuper{
+    text-align: left;
+    margin-left: 12em;
+    margin-top: -22em;
+}
+.bnt-cuper button{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 21px 60px ;
+    border: 1px solid;
+    border-radius: 6px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1em;
+    border-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
 .btn-contato button{
     width: 170px;
     height: 50px;
@@ -315,6 +368,7 @@ tr td{
     position: relative;
     overflow: hidden;
     z-index: 1;
+
     
 &:after {
     content: '';
