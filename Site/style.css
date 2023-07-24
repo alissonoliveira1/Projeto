@@ -66,7 +66,7 @@ header ul li a {
 
 .temp {
   height: 100vh;
-  background-image: url(templete.jpg);
+  background-image: url(sedan\ esporte.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ header ul li a {
 }
 
 .temp h3 {
-  color: white;
+  color: rgb(163, 64, 64);
   margin-top: -11em;
   margin-left: 3em;
 }
@@ -85,7 +85,7 @@ header ul li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: -2em;
   font-size: 3.5em;
-  color: rgb(218, 213, 213);
+  color: white;
 }
 
 .titu h2 {
@@ -389,4 +389,63 @@ tr td {
 }
 .btn-contato button:hover:before {
   width: 100%;
+}
+
+.contatos h4 {
+  color: silver;
+}
+
+.contatos {
+  margin-left: 8em;
+  margin-top: 40em;
+}
+
+.contatos ul li {
+  display: block;
+  margin-top: 20px;
+}
+
+.contatos ul li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(68, 68, 68);
+}
+
+.carro h4 {
+  color: silver;
+}
+
+.carro {
+  text-align: center;
+  margin-top: -8.3em;
+}
+
+.carro ul li {
+  margin-top: 20px;
+}
+
+.carro ul li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(68, 68, 68);
+}
+
+.service h4 {
+  color: silver;
+}
+
+.service {
+  margin-right: 8em;
+  text-align: right;
+  margin-top: -13em;
+}
+
+.service ul li {
+  margin-top: 20px;
+}
+
+.service ul li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(68, 68, 68);
 }
